@@ -1,0 +1,22 @@
+
+-- Pasta ionic no C: cd/Ionic (ou criar)
+
+-- mkdir ionic
+
+--------------------------------------------------
+
+--criar projeto NodeJS
+
+mkdir ( nome do projeto )
+
+mkdir back-end
+
+cd back-end
+
+npm init -y   (inicializa o projeto de forma padrão)
+
+npm i json-server
+
+no arquivo package.json - "scripts" colocar "start": "json-server --watch bd.json",
+
+rodar npm start
